@@ -1,7 +1,6 @@
 import { ethers } from "ethers";
 import { SiweMessage } from "siwe";
 import create from "zustand";
-import Cookies from 'js-cookie';
 
 type ConnectionState =
   | "disconnected"

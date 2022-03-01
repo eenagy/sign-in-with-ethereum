@@ -3,7 +3,6 @@ import { useUser } from "../hooks/useUser";
 
 const Header = () => {
   const user = useUser();
-  console.log(user);
   return (
     <header>
       <nav>
